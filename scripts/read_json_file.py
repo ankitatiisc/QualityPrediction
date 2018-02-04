@@ -155,7 +155,7 @@ def process_apple_data(apple_data_list):
 
 #Add arguments here
 parser = argparse.ArgumentParser()
-parser.add_argument("-f","--file",help="JSON file path")
+parser.add_argument("file",help="JSON file path")
 args = parser.parse_args()
 
 #Check if path exists
